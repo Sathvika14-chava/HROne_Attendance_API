@@ -1,3 +1,4 @@
+
 # Employee Attendance & Analytics API
 
 FastAPI + MongoDB implementation for HROne contract v2.0. All application code is in `app/main.py`.
@@ -18,3 +19,7 @@ MongoDB 6.0+ is required for `$densify` and `$setWindowFields`. `GET /health` ch
 ## Notes
 
 The app uses database uniqueness constraints for duplicate employee/attendance protection and conditional updates for punch-out and regularization races. Review `REVIEW.md` and `DECISIONS.md` before the walkthrough; be prepared to explain and test the business rules, aggregation pipelines, and explain plans yourself.
+=======
+# HROne_Attendance_API
+
+
